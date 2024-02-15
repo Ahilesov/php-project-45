@@ -3,10 +3,12 @@
     "bin": ["bin/brain-games"],
     "description": "project 1",
     "autoload": {
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        }
+        "files": [
+            "src/Cli.php"
+        ]
     },
-    "require": {}
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.22"
+    }
     
 }

@@ -1,4 +1,9 @@
 #!/usr/bin/env php
 
 <?php
-echo 'Welcome to the Brain Games!';
+
+require_once('/home/ahilesovv/php-project-45/src/Cli.php');
+
+use function BrainGames\Cli\start;
+
+start();
