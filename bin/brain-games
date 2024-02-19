@@ -2,7 +2,7 @@
 
 <?php
 
-require_once('/home/ahilesovv/php-project-45/src/Cli.php');
+require_once __DIR__ . '/../vendor/autoload.php';
 
 use function BrainGames\Cli\start;
 
