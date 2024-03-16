@@ -14,7 +14,6 @@ function startGame($taskText, $getDataGame): void
     line($taskText);
 
     for ($i = 1; $i <= NUMBER_OF_ROUNDS; $i++) {
-
         $resultDataArray = $getDataGame();
         $question = $resultDataArray[0];
         $answer = (string) $resultDataArray[1];
