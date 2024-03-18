@@ -6,3 +6,7 @@
 
 [Аскинема "Калькулятор"](https://asciinema.org/a/71gy1si0CsyeXOvPOy1rLmPyG)
 
+[Аскинема "НОД"](https://asciinema.org/a/JCaR57VC6rcpe2L6hOdrKaeR8)
+
+[Аскинема "Арифметическая прогрессия"](https://asciinema.org/a/MtatspnqTD1qsQ5Q9ZWZqCWXf)
+
