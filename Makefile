@@ -16,6 +16,9 @@ brain-gcd:
 brain-prg:
 	./bin/brain-progression
 
+brain-prime:
+	./bin/brain-prime
+
 validate:
 	composer validate
 

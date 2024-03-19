@@ -4,7 +4,8 @@
         "bin/brain-games",
         "bin/brain-even",
         "bin/brain-gcd",
-        "bin/brain-progression"
+        "bin/brain-progression",
+        "bin/brain-prime"
     ],
     "type": "project",
     "authors": [
@@ -22,7 +23,8 @@
             "src/Engine.php",
             "src/Games/Calculator.php",
             "src/Games/Gcd.php",
-            "src/Games/Progression.php"
+            "src/Games/Progression.php",
+            "src/Games/Prime.php"
         ]
     },
     "require": {

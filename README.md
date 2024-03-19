@@ -8,5 +8,5 @@
 
 [Аскинема "НОД"](https://asciinema.org/a/JCaR57VC6rcpe2L6hOdrKaeR8)
 
-[Аскинема "Арифметическая прогрессия"](https://asciinema.org/a/MtatspnqTD1qsQ5Q9ZWZqCWXf)
+[Аскинема "Простое ли число?"](https://asciinema.org/a/r2PEIg35cLJZhACzLUKuSxuUC)
 
