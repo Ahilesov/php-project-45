@@ -32,7 +32,7 @@ function basicLogicGame(): void
         $answer = $progression[$secretElementPosition];
 
         $progression[$secretElementPosition] = "..";
-        $question = implode(",", $progression);
+        $question = implode(" ", $progression);
 
         return [$question, $answer];
     };
