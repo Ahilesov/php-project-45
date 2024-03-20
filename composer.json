@@ -5,7 +5,8 @@
         "bin/brain-even",
         "bin/brain-gcd",
         "bin/brain-progression",
-        "bin/brain-prime"
+        "bin/brain-prime",
+        "bin/brain-calc"
     ],
     "type": "project",
     "authors": [
