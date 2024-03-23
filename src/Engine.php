@@ -6,7 +6,7 @@ use function cli\line;
 use function cli\prompt;
 
 const NUMBER_OF_ROUNDS = 3;
-function startGame(string $taskText, array $getDataGame): void
+function startGame(string $taskText, \Closure $getDataGame): void
 {
     line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');
