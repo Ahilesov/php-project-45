@@ -24,7 +24,7 @@ function basicLogicGame(): void
 {
     $getDataGame = function () {
 
-        $question = rand(1, 20);
+        $question = rand(1, 30);
         $answer = (isPrime($question) ? 'yes' : 'no');
 
         return [$question, $answer];
