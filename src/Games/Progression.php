@@ -10,7 +10,7 @@ const LENGTH_PROGRESSION = 10;
 const MAX_STEP_PROGRESSION = 10;
 const MAX_START_PROGRESSION = 20;
 
-function getProgresion($startProgression, $step, $length): array
+function getProgresion(int $startProgression, int $step, int $length): array
 {
     $result = [];
     for ($i = 0; $i < $length; $i++) {
