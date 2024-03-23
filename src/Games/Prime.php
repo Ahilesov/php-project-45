@@ -12,8 +12,8 @@ function isPrime(int $num): bool
         return false;
     }
 
-    for ($i = 2; $i <= sqrt($num); $i++) {
-        if (!($num % $i)) {
+    for ($i = 2; $i <= $num/2; $i++) {
+        if ($num % $i == 0) {
             return false;
         }
     }
@@ -24,7 +24,7 @@ function basicLogicGame(): void
 {
     $getDataGame = function () {
 
-        $question = rand(1, 3);
+        $question = rand(1, 20);
         $answer = (isPrime($question) ? 'yes' : 'no');
 
         return [$question, $answer];
