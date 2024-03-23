@@ -6,7 +6,7 @@ use function BrainGames\Engine\startGame;
 
 const TASK_TEXT = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-function isPrime($num): bool
+function isPrime(int $num): bool
 {
     if ($num == 1) {
         return false;
