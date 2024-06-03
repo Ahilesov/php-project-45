@@ -5,7 +5,7 @@ namespace BrainGames\Engine;
 use function cli\line;
 use function cli\prompt;
 
-const NUMBER_OF_ROUNDS = 3;
+const NUMBER_OF_ROUND = 3;
 function startGame(string $taskText, \Closure $getDataGame): void
 {
     line('Welcome to the Brain Games!');
@@ -13,7 +13,7 @@ function startGame(string $taskText, \Closure $getDataGame): void
     line("Hello, %s!", $name);
     line($taskText);
 
-    for ($i = 1; $i <= NUMBER_OF_ROUNDS; $i++) {
+    for ($i = 1; $i <= NUMBER_OF_ROUND; $i++) {
         $resultDataArray = $getDataGame();
         $question = $resultDataArray[0];
         $answer = (string) $resultDataArray[1];
